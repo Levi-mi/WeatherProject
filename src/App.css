@@ -1,0 +1,33 @@
+.text-center{
+    text-align: center;
+}
+.card_weather{
+    text-align: center;
+    background: rgb(255, 200, 150);
+    width: 250px;
+    padding: 20px;
+    border-radius: 20%;
+    margin: 20px auto;
+}
+.mapS{
+    width: 600px; 
+    height: 450px;
+    border: 0px;
+}
+form{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.BTNform{
+    margin-top: 5px;
+    background: rgb(109, 109, 255);
+}
+.comment{
+    font-size: small;
+    color: red;
+}
