@@ -12,7 +12,7 @@ const Weather = () => {
   const apiUrl = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
 
-  const fechData = () => {
+  const fetchData = () => {
     fetch(apiUrl)
       .then(response => {
         if (!response.ok) {
@@ -33,8 +33,8 @@ const Weather = () => {
       });
   }
 
-  //fechData();
-  useEffect(fechData, [city]);
+  //fetchData();
+  useEffect(fetchData, [city]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
